@@ -1,6 +1,5 @@
 import Layout from '../../components/Layout'
 import ezbdc from '@/assets/friendlinks/ezbdc.jpg'
-import kk from '@/assets/friendlinks/kk.jpg'
 import web_worker from '@/assets/friendlinks/web-worker.png'
 import type React from 'react'
 

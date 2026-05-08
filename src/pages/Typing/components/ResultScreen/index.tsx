@@ -3,7 +3,6 @@ import ShareButton from '../ShareButton'
 import ConclusionBar from './ConclusionBar'
 import RemarkRing from './RemarkRing'
 import WordChip from './WordChip'
-import styles from './index.module.css'
 import Tooltip from '@/components/Tooltip'
 import {
   currentChapterAtom,
@@ -222,7 +221,7 @@ const ResultScreen = () => {
                   <ConclusionBar mistakeLevel={mistakeLevel} mistakeCount={wrongWords.length} />
                 </div>
               </div>
-<div className="ml-2 flex flex-col items-center justify-end gap-3 text-xl">
+              <div className="ml-2 flex flex-col items-center justify-end gap-3 text-xl">
                 {!isReviewMode && (
                   <>
                     <ShareButton />
